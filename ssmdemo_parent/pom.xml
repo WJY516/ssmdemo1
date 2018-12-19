@@ -7,10 +7,17 @@
     <groupId>com.wujiayi</groupId>
     <artifactId>ssmdemo_parent</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <!--子模块-->
     <modules>
 
+        <module>../ssmdemo_common</module>
+        <module>../ssmdemo_manage</module>
+        <module>../ssmdemo_rest</module>
+        <module>../ssmdemo_redis</module>
+        <module>../ssmdemo_sso</module>
+        <module>../ssmdemo_search</module>
     </modules>
 
     <!--集中定义版本号-->

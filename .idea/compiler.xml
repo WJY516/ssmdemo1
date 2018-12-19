@@ -7,7 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ssmdemo" />
-        <module name="ssmdemo_parent" />
+        <module name="ssmdemo_common" />
+        <module name="ssmdemo_manage" />
+        <module name="ssmdemo_redis" />
+        <module name="ssmdemo_rest" />
+        <module name="ssmdemo_search" />
+        <module name="ssmdemo_sso" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
