@@ -3,21 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>ssmdemo_parent</artifactId>
+        <artifactId>ssmdemo_manage</artifactId>
         <groupId>com.wujiayi</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../ssmdemo_parent/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>ssmdemo_manage</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>ssmdemo_manage_pojo</module>
-        <module>ssmdemo_manage_mapper</module>
-        <module>ssmdemo_manage_service</module>
-        <module>ssmdemo_manage_web</module>
-    </modules>
+    <packaging>jar</packaging>
+    <artifactId>ssmdemo_manage_pojo</artifactId>
 
 
 </project>
