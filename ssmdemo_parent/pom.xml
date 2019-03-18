@@ -99,7 +99,7 @@
 
     <build>
         <plugins>
-            <!--资源拷贝插件-->
+                 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
